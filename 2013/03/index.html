@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr-FR"><head><meta charset="UTF-8"><title>Archives des mars 2013 - Sweet Sixteen</title><link rel="stylesheet" type="text/css" media="all" href="https://www.sweetsixteen.fr/wp-content/themes/sweetsixteen_v5/style.css"><link rel="stylesheet" href="/soundcloud-soundcloud-custom-player-690a362/css/sc-player-sweetsixteen.css" type="text/css"><link rel="dns-prefetch" href="//s.w.org"><link rel="stylesheet" id="wp-block-library-css" href="https://www.sweetsixteen.fr/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all"><link rel="stylesheet" id="fpf-css" href="https://www.sweetsixteen.fr/wp-content/plugins/facebook-photo-fetcher/style.css" type="text/css" media="all"><link rel="stylesheet" id="fancybox-css" href="https://www.sweetsixteen.fr/wp-content/plugins/facebook-photo-fetcher/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="all"><link rel="stylesheet" id="dlm-frontend-css" href="https://www.sweetsixteen.fr/wp-content/plugins/download-monitor/assets/css/frontend.css" type="text/css" media="all"><script type="text/javascript" src="https://www.sweetsixteen.fr/wp-content/plugins/advanced-ajax-page-loader/jquery.js"></script><script type="text/javascript">
+		checkjQuery = false;
+		jQueryScriptOutputted = false;
+		
+		//Content ID
+		var AAPL_content = 'content';
+		
+		//Search Class
+		var AAPL_search_class = 'searchform';
+		
+		//Ignore List - this is for travisavery who likes my comments... hello
+		var AAPL_ignore_string = new String('#, /wp-, .pdf, .zip, .rar, https://www.sweetsixteen.fr/download/'); 
+		var AAPL_ignore = AAPL_ignore_string.split(', ');
+		
+		//Shall we take care of analytics?
+		var AAPL_track_analytics = true		
+		//Various options and settings
+		var AAPL_scroll_top = false		
+		//Maybe the script is being a tw**? With this you can find out why...
+		var AAPL_warnings = false;
+		
+		//This is probably not even needed anymore, but lets keep for a fallback
+		function initJQuery() {
+			if (checkjQuery == true) {
+				//if the jQuery object isn't available
+				if (typeof(jQuery) == 'undefined') {
+				
+					if (! jQueryScriptOutputted) {
+						//only output the script once..
+						jQueryScriptOutputted = true;
+						
+						//output the jquery script
+						//one day I will complain :/ double quotes inside singles.
+						document.write('<scr' + 'ipt type="text/javascript" src="https://www.sweetsixteen.fr/wp-content/plugins/advanced-ajax-page-loader/jquery.js">' + 'ipt>');
+					}
+					setTimeout('initJQuery()', 50);
+				}
+			}
+		}
+
+		initJQuery();
+
+	</script><script type="text/javascript" src="https://www.sweetsixteen.fr/wp-content/plugins/advanced-ajax-page-loader/ajax-page-loader.js"></script><script type="text/javascript" src="https://www.sweetsixteen.fr/wp-content/plugins/advanced-ajax-page-loader/reload_code.js"></script><script type="text/javascript">
+		//urls
+		var AAPLsiteurl = "https://www.sweetsixteen.fr/";
+		var AAPLhome = "https://www.sweetsixteen.fr/";
+		
+		//The old code here was RETARDED - Much like the rest of the code... Now I have replaced this with something better ;)
+		//PRELOADING YEEEYYYYY!!
+		var AAPLloadingIMG = jQuery('<img/>').attr('src', 'https://www.sweetsixteen.fr/assets/AAPL/loaders/Spinner.gif');
+		var AAPLloadingDIV = jQuery('<div/>').attr('style', 'display:none;').attr('id', 'ajaxLoadDivElement');
+		AAPLloadingDIV.appendTo('body');
+		AAPLloadingIMG.appendTo('#ajaxLoadDivElement');
+		//My code can either be seen as sexy? Or just a terribly orchestrated hack? Really it's up to you...
+		
+		//Loading/Error Code
+		//now using json_encode - two birds one bullet.
+		var str = "<center>\r\n\t<p style=\"text-align: center !important;\">Chargement... <\/p>\r\n\t<p style=\"text-align: center !important;\">\r\n\t\t<img src=\"{loader}\" border=\"0\" alt=\"Loading Image\" title=\"Please Wait...\" \/>\r\n\t<\/p>\r\n<\/center>";
+		var AAPL_loading_code = str.replace('{loader}', AAPLloadingIMG.attr('src'));
+		str = "<center>\r\n\t<p style=\"text-align: center !important;\">Error!<\/p>\r\n\t<p style=\"text-align: center !important;\">\r\n\t\t<font color=\"red\">There was a problem and the page didnt load.<\/font>\r\n\t<\/p>\r\n<\/center>";
+		var AAPL_loading_error_code = str.replace('{loader}', AAPLloadingIMG.attr('src'));
+	</script><style type="text/css" media="screen"></style><link rel="archives" title="mai 2014" href="https://www.sweetsixteen.fr/2014/05/"><link rel="archives" title="octobre 2013" href="https://www.sweetsixteen.fr/2013/10/"><link rel="archives" title="mars 2013" href="https://www.sweetsixteen.fr/2013/03/"><link rel="archives" title="octobre 2012" href="https://www.sweetsixteen.fr/2012/10/"><link rel="archives" title="août 2012" href="https://www.sweetsixteen.fr/2012/08/"><link rel="archives" title="mai 2012" href="https://www.sweetsixteen.fr/2012/05/"><link rel="archives" title="février 2012" href="https://www.sweetsixteen.fr/2012/02/"><link rel="archives" title="octobre 2011" href="https://www.sweetsixteen.fr/2011/10/"><link rel="archives" title="septembre 2011" href="https://www.sweetsixteen.fr/2011/09/"><link rel="archives" title="novembre 2010" href="https://www.sweetsixteen.fr/2010/11/"></head><body>
+
+<img alt="full screen background image" src="https://www.sweetsixteen.fr/wp-content/themes/sweetsixteen_v5/images/background_absence_v2.jpg" id="full-screen-background-image"><div id="wrapper">
+    <div id="header">
+    	
+		<div id="logo">
+			<a href="https://www.sweetsixteen.fr/"><img src="https://www.sweetsixteen.fr/wp-content/themes/sweetsixteen_v5/images/SweetSixteen-Logo3.png" title="Accueil"></a>
+		</div>
+    </div>
+
+	<div class="menu-menu-principal-container"><ul id="menu-menu-principal" class="nav"><li id="menu-item-318" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-318"><a href="https://www.sweetsixteen.fr/">Accueil</a></li>
+<li id="menu-item-316" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-316"><a href="https://www.sweetsixteen.fr/albums/">Albums</a></li>
+<li id="menu-item-385" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-385"><a href="https://www.sweetsixteen.fr/multimedia/">Multimédia</a></li>
+<li id="menu-item-388" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-388"><a href="https://www.sweetsixteen.fr/concerts/">Concerts</a></li>
+<li id="menu-item-450" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-450"><a href="https://www.sweetsixteen.fr/presse/">Presse</a></li>
+<li id="menu-item-392" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-392"><a href="https://www.sweetsixteen.fr/espace-pro/">Espace pro</a></li>
+</ul></div>	
+	<div id="main">
+<div id="content">
+	
+			<div class="post">
+
+			<h1>Live à La Dame de Canton (Paris, 25 janvier 2013)</h1>
+
+			
+			<div class="entry">
+								<p><iframe width="640" height="360" src="https://www.youtube.com/embed/7Lz9_xCvDcM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><iframe width="640" height="360" src="https://www.youtube.com/embed/KXc0POl5u_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p></p>
+<div class="gallery fpf-gallery">
+<dl class="gallery-item" style="width:24.875%"><dt class="gallery-icon"><a rel="https://www.facebook.com/album.php?fbid=10151230335470547&id=36382165546&aid=458867" class="fbPhoto" href="https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/72959_10151230335520547_2014898673_n.jpg?_nc_cat=104&_nc_ht=scontent.xx&oh=c811a20f01c50925f61af8a6a455aafc&oe=5C9BFBDA"><img src="https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/72959_10151230335520547_2014898673_n.jpg?_nc_cat=104&_nc_ht=scontent.xx&oh=ec28023c468a0dae1ab4867d1a2dba3e&oe=5C932083" alt=""></a></dt>
+<dd class="gallery-caption"></dd>
+</dl><dl class="gallery-item" style="width:24.875%"><dt class="gallery-icon"><a rel="https://www.facebook.com/album.php?fbid=10151230335470547&id=36382165546&aid=458867" class="fbPhoto" href="https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/480119_10151230335600547_2013784982_n.jpg?_nc_cat=102&_nc_ht=scontent.xx&oh=0f3f203771797590aba01211fea1123c&oe=5C9D9A85"><img src="https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/480119_10151230335600547_2013784982_n.jpg?_nc_cat=102&_nc_ht=scontent.xx&oh=b3e5c435c64bbb85623780ee0b77c3e3&oe=5C9E59CF" alt=""></a></dt>
+<dd class="gallery-caption"></dd>
+</dl><dl class="gallery-item" style="width:24.875%"><dt class="gallery-icon"><a rel="https://www.facebook.com/album.php?fbid=10151230335470547&id=36382165546&aid=458867" class="fbPhoto" href="https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/485920_10151230335755547_1042994792_n.jpg?_nc_cat=111&_nc_ht=scontent.xx&oh=09c00efa4e0453d412d033c77554cd8b&oe=5CC9DB7D"><img src="https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/485920_10151230335755547_1042994792_n.jpg?_nc_cat=111&_nc_ht=scontent.xx&oh=5a6e53c3b5a5c35678fd6e9e4dafc725&oe=5C9CB637" alt=""></a></dt>
+<dd class="gallery-caption"></dd>
+</dl><dl class="gallery-item" style="width:24.875%"><dt class="gallery-icon"><a rel="https://www.facebook.com/album.php?fbid=10151230335470547&id=36382165546&aid=458867" class="fbPhoto" href="https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/75082_10151230336210547_1087424289_n.jpg?_nc_cat=110&_nc_ht=scontent.xx&oh=859d2a7755ccd93f6ff684ec4b3657f4&oe=5C8CE5A1"><img src="https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/75082_10151230336210547_1087424289_n.jpg?_nc_cat=110&_nc_ht=scontent.xx&oh=eacbef3a989e5ed1623a870e6264450c&oe=5C920DF8" alt=""></a></dt>
+<dd class="gallery-caption"></dd>
+</dl><p><br style="clear: both"></p>
+<dl class="gallery-item" style="width:24.875%"><dt class="gallery-icon"><a rel="https://www.facebook.com/album.php?fbid=10151230335470547&id=36382165546&aid=458867" class="fbPhoto" href="https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/14965_10151230336270547_1964913860_n.jpg?_nc_cat=110&_nc_ht=scontent.xx&oh=7be01787e87945b7883bd00599df1cfe&oe=5CC7E8F3"><img src="https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/14965_10151230336270547_1964913860_n.jpg?_nc_cat=110&_nc_ht=scontent.xx&oh=d8cd932e277d1a0b2acec611d731d696&oe=5C9401AA" alt=""></a></dt>
+<dd class="gallery-caption"></dd>
+</dl><dl class="gallery-item" style="width:24.875%"><dt class="gallery-icon"><a rel="https://www.facebook.com/album.php?fbid=10151230335470547&id=36382165546&aid=458867" class="fbPhoto" href="https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/14842_10151230335850547_2104253679_n.jpg?_nc_cat=105&_nc_ht=scontent.xx&oh=e83c609c953dbd65d389975e0de2ee93&oe=5CCD4EF0"><img src="https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/14842_10151230335850547_2104253679_n.jpg?_nc_cat=105&_nc_ht=scontent.xx&oh=2ab78a299a8ae4537416745817b532b7&oe=5C9884A9" alt=""></a></dt>
+<dd class="gallery-caption"></dd>
+</dl><dl class="gallery-item" style="width:24.875%"><dt class="gallery-icon"><a rel="https://www.facebook.com/album.php?fbid=10151230335470547&id=36382165546&aid=458867" class="fbPhoto" href="https://scontent.xx.fbcdn.net/v/t1.0-0/p180x540/309926_10151230335975547_1393757634_n.jpg?_nc_cat=109&_nc_ht=scontent.xx&oh=af20fc5711cd61b7220c42b97c84002d&oe=5CC71EA4"><img src="https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/309926_10151230335975547_1393757634_n.jpg?_nc_cat=109&_nc_ht=scontent.xx&oh=facddb61cfc0945d9fc03f4e3a62e24b&oe=5CCFE8EE" alt=""></a></dt>
+<dd class="gallery-caption"></dd>
+</dl><p><br style="clear: both"></p>
+</div>
+<p><script type="text/javascript">
+		jQuery(document).ready(function() {
+			jQuery("a[rel*='10151230335470547']").fancybox({
+				"transitionIn"	: "elastic",
+				"transitionOut"	: "elastic",
+				"titlePosition" : "inside",
+				"titleFormat"	: function(title, currentArray, currentIndex, currentOpts)
+				{
+					return "<span id='fancybox-title-over' style='background-image:none; text-align:left;'>" + (title.length ? title : "") + "";
+				}
+			});
+		});
+</script><br><br></p>
+
+			</div>
+		</div>
+	
+	<div class="navigation">
+			</div>
+
+</div>
+
+<div class="sidebar">
+<li id="text-13" class="widget-odd widget-first widget-1 widget widget_text">			<div class="textwidget"><iframe width="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F52281120&auto_play=false&show_artwork=true&color=7e90ac"></iframe>
+</div>
+		</li>
+<li id="advancedrecentposts-3" class="widget-even widget-2 widget widget_advancedrecentposts"><h2 class="widgettitle">Dernières news</h2>
+<ul class="advanced-recent-posts"><li><span class="date"></span> <a href="https://www.sweetsixteen.fr/multimedia/clip-who-will-save-us/" title="Clip Who Will Save Us">Clip Who Will Save Us</a></li><li><span class="date"></span> <a href="https://www.sweetsixteen.fr/multimedia/clip-i-could-feel-better/" title="Clip I Could Feel Better">Clip I Could Feel Better</a></li><li><span class="date"></span> <a href="https://www.sweetsixteen.fr/multimedia/clip-promo-lalbum-absence/" title="Clip promo de l'album Absence">Clip promo de l'album Absence</a></li></ul></li>
+<li id="text-10" class="widget-odd widget-3 widget widget_text">			<div class="textwidget"><div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script><div class="fb-like-box" data-href="http://www.facebook.com/sweetsixteenband" data-width="300" data-colorscheme="dark" data-show-faces="false" data-stream="false" data-header="false"></div></div>
+		</li>
+<li id="text-11" class="widget-even widget-last widget-4 widget widget_text">			<div class="textwidget"><a class="twitter-timeline" data-width="300" data-height="400" data-theme="dark" href="https://twitter.com/_SweetSixteen?ref_src=twsrc%5Etfw">Tweets by _SweetSixteen</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+		</li>
+</div>	</div>
+	
+	<div id="footer">
+	
+		<strong>Contact Sweet Sixteen</strong><br><script type="text/javascript">(function(){var ml="@-/fs:l ew>r<\"cktnx.aiohm=",mi="<D7>6D44I=HDE6@F16EA?=7G;83I=HDE6@F5>FA@D>@04988@4EB@88AC3;=7:>FA@D>@04988@4EB@88AC3;<2D:",o="";for(var j=0,l=mi.length;j<l;j++){o+=ml.charAt(mi.charCodeAt(j)-48);}document.write(o);}());</script><noscript>*protected email*</noscript>
+		<br>
+		06 60 17 00 19
+		
+
+	</div>
+
+</div>
+
+
+<script type="text/javascript" src="/soundcloud-soundcloud-custom-player-690a362/js/soundcloud.player.api.js"></script><script type="text/javascript" src="/soundcloud-soundcloud-custom-player-690a362/js/sc-player.js"></script><script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script><script language="Javascript">
+<!--
+	$(document).ready(function () {
+    	setInterval(function () {
+        	$('#effect').effect("highlight", {}, 2000);
+    	}, 2000);  
+	});
+
+// -->
+</script><script type="text/javascript" src="https://www.sweetsixteen.fr/wp-content/plugins/facebook-photo-fetcher/fancybox/jquery.fancybox-1.3.4.pack.js"></script></body></html>
