@@ -9,7 +9,7 @@
 <link rel="pingback" href="https://www.sweetsixteen.fr/music/xmlrpc.php" />
 
 <!-- Charge le skin du player audio. Cf. https://github.com/soundcloud/soundcloud-custom-player/wiki -->
-<link rel="stylesheet" href="/soundcloud-soundcloud-custom-player-690a362/css/sc-player-sweetsixteen.css" type="text/css">
+
 
 <!-- Charge jQuery -->
 <!--
@@ -176,9 +176,7 @@
 
 </div><!-- #wrapper -->
 
-<!-- Charge les js du player audio. Cf. https://github.com/soundcloud/soundcloud-custom-player/wiki -->
-<script type="text/javascript" src="/soundcloud-soundcloud-custom-player-690a362/js/soundcloud.player.api.js"></script>
-<script type="text/javascript" src="/soundcloud-soundcloud-custom-player-690a362/js/sc-player.js"></script>
+
 
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
 
